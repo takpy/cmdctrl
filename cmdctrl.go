@@ -9,11 +9,11 @@ import (
 	"runtime"
 	"syscall"
 
-	"github.com/facebookgo/devrestarter"
 	"github.com/facebookgo/flagconfig"
 	"github.com/facebookgo/flagenv"
 	"github.com/facebookgo/pidfile"
 	"github.com/facebookgo/stdfd"
+	"github.com/takpy/devrestarter"
 )
 
 // Provides ProcessControl for the current process.
